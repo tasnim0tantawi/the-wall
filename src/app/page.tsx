@@ -7,7 +7,7 @@ export default async function Home() {
     .then((res) => {
       console.log(res);
       
-      return res.users});
+      return res.data});
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-start gap-24 p-24">
